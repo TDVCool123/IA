@@ -46,17 +46,17 @@ elif 0<tiempo_100m <=11:
 elif tiempo_100m>=12:
     p3=0
     
-print("Resultado p1:", p1)
-print("Resultado p2:", p2)
-print("Resultado p3:", p3)
+#print("Resultado p1:", p1)
+#print("Resultado p2:", p2)
+#print("Resultado p3:", p3)
     
 r1=min(p1,p2)*0.8
 r2=min(p1,p3)*0.9
 r3=min(p2,p3)*0.75
 
-print("Resultado r1:", r1)
-print("Resultado r2:", r2)
-print("Resultado r3:", r3)
+#print("Resultado r1:", r1)
+#print("Resultado r2:", r2)
+#print("Resultado r3:", r3)
 
 t=max(r1,r2,r3)
 
